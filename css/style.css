@@ -1,0 +1,69 @@
+/* ----------------------------
+COLORS:
+black text
+white background
+orange links and header background
+
+FONTS:
+h1, h2, h3, h4, h5, h6, blockquote, figcaption {font-family: 'Fira Sans', sans-serif;}
+p {font-family: 'Merriweather', serif;}
+Links
+------------------------- */
+
+/* Styles that apply to everything in general*/
+
+html {
+box-sizing: "border-box"
+}
+*, *:before, *::after {
+  box-sizing: "inherit";
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  color: black;
+  line-height: 1.5;
+  background-color: white;
+  text-align: center;
+}
+
+header{
+  header {
+    background-color: #ff6600;
+    background-size: cover;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;/*use Roboto for everything inside header*/
+    text-align: center;/* align all text inside header to the center*/
+  }
+}
+
+.dsplay{
+  font-family: "Fira Sans";
+  font-size: 68px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+  padding: 20px 20px 10px 20px;
+}
+
+/*header h2 lead*/
+.summary {
+  font-family: "Fira Sans";
+  font-size: 32px;
+  font-weight: 400;
+  color: white;
+  line-height: 1.3;
+  padding: 0px 20px;
+  margin: 0px 60px;
+}
+
+/* header h3 byline */
+#author {
+  font-family: "Fira Sans";
+  font-size: 14px;
+  color: black;
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding: 20px;
+}
