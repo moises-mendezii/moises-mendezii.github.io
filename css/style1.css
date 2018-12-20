@@ -30,7 +30,7 @@ body {
 /* Header styles and layouts */
 
 header {
-    background-color: blue;
+    background-color: orange;
     background-size: cover;
     color: black;
     text-align: center;
@@ -114,7 +114,7 @@ h5{
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-.row {
+.column {
   float: left;
   width: 50%;
   padding: 5px;
