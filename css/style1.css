@@ -30,7 +30,7 @@ body {
 /* Header styles and layouts */
 
 header {
-    background-color: orange;
+    background-color: blue;
     background-size: cover;
     color: black;
     text-align: center;
@@ -74,7 +74,7 @@ h1 {
   padding: 20px 20px 10px 20px; /* The rule of TRBLE which means Top Right Bottom Left */
 
 
- .summmary {
+.summmary {
   font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   font-size: 32px;
   font-weight: 400;
