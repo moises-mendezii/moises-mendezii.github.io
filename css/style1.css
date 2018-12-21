@@ -127,6 +127,9 @@ h5{
   display: table;
 }
 
+figcaption {
+  font-size: 12px;
+}
 
 blockquote {
   display: block;
